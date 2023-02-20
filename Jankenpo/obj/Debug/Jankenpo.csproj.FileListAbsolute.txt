@@ -1,0 +1,7 @@
+C:\may_dev\come-in-by-the-window\Jankenpo\bin\Debug\Jankenpo.exe.config
+C:\may_dev\come-in-by-the-window\Jankenpo\bin\Debug\Jankenpo.exe
+C:\may_dev\come-in-by-the-window\Jankenpo\bin\Debug\Jankenpo.pdb
+C:\may_dev\come-in-by-the-window\Jankenpo\obj\Debug\Jankenpo.csproj.AssemblyReference.cache
+C:\may_dev\come-in-by-the-window\Jankenpo\obj\Debug\Jankenpo.csproj.CoreCompileInputs.cache
+C:\may_dev\come-in-by-the-window\Jankenpo\obj\Debug\Jankenpo.exe
+C:\may_dev\come-in-by-the-window\Jankenpo\obj\Debug\Jankenpo.pdb
