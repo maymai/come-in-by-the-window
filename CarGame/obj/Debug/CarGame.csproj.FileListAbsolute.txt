@@ -1,0 +1,7 @@
+C:\may_dev\come-in-by-the-window\CarGame\bin\Debug\CarGame.exe.config
+C:\may_dev\come-in-by-the-window\CarGame\bin\Debug\CarGame.exe
+C:\may_dev\come-in-by-the-window\CarGame\bin\Debug\CarGame.pdb
+C:\may_dev\come-in-by-the-window\CarGame\obj\Debug\CarGame.csproj.AssemblyReference.cache
+C:\may_dev\come-in-by-the-window\CarGame\obj\Debug\CarGame.csproj.CoreCompileInputs.cache
+C:\may_dev\come-in-by-the-window\CarGame\obj\Debug\CarGame.exe
+C:\may_dev\come-in-by-the-window\CarGame\obj\Debug\CarGame.pdb

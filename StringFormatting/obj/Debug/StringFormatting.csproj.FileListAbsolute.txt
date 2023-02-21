@@ -1,0 +1,7 @@
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\StringFormatting\bin\Debug\StringFormatting.exe.config
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\StringFormatting\bin\Debug\StringFormatting.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\StringFormatting\bin\Debug\StringFormatting.pdb
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\StringFormatting\obj\Debug\StringFormatting.csproj.AssemblyReference.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\StringFormatting\obj\Debug\StringFormatting.csproj.CoreCompileInputs.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\StringFormatting\obj\Debug\StringFormatting.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\StringFormatting\obj\Debug\StringFormatting.pdb

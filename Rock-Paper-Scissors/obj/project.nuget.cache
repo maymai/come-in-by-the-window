@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1t+EG1URXfin8GiSyL3bYhTw74z6IimWmlGzIGt92YIbHz7oUevhmx34YRJpXfwQXjsB6ZOGiQJqGgyZnRQ2xw==",
+  "success": true,
+  "projectFilePath": "E:\\MayMai\\Google Drive\\fioriniswann\\Visual Studio Repo\\Rock-Paper-Scissors\\Rock-Paper-Scissors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mayma\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

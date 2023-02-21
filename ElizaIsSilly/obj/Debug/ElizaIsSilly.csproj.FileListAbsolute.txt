@@ -1,0 +1,7 @@
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\ElizaIsSilly\bin\Debug\ElizaIsSilly.exe.config
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\ElizaIsSilly\bin\Debug\ElizaIsSilly.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\ElizaIsSilly\bin\Debug\ElizaIsSilly.pdb
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\ElizaIsSilly\obj\Debug\ElizaIsSilly.csproj.AssemblyReference.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\ElizaIsSilly\obj\Debug\ElizaIsSilly.csproj.CoreCompileInputs.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\ElizaIsSilly\obj\Debug\ElizaIsSilly.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\ElizaIsSilly\obj\Debug\ElizaIsSilly.pdb

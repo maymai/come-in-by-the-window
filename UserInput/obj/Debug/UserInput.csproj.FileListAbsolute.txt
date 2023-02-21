@@ -1,0 +1,6 @@
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\UserInput\bin\Debug\UserInput.exe.config
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\UserInput\bin\Debug\UserInput.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\UserInput\bin\Debug\UserInput.pdb
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\UserInput\obj\Debug\UserInput.csproj.CoreCompileInputs.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\UserInput\obj\Debug\UserInput.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\UserInput\obj\Debug\UserInput.pdb

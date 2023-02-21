@@ -1,0 +1,7 @@
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\Variables\bin\Debug\Variables.exe.config
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\Variables\bin\Debug\Variables.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\Variables\bin\Debug\Variables.pdb
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\Variables\obj\Debug\Variables.csproj.AssemblyReference.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\Variables\obj\Debug\Variables.csproj.CoreCompileInputs.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\Variables\obj\Debug\Variables.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\Variables\obj\Debug\Variables.pdb

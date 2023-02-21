@@ -1,0 +1,7 @@
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HelloWorld\bin\Debug\HelloWorld.exe.config
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HelloWorld\bin\Debug\HelloWorld.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HelloWorld\bin\Debug\HelloWorld.pdb
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HelloWorld\obj\Debug\HelloWorld.exe
+E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HelloWorld\obj\Debug\HelloWorld.pdb
