@@ -60,15 +60,18 @@ namespace HammerBitcoin
             {
                 computerPrice = UpdateComputerPrice();
                 PrintSummary();
-                BuyComputers();
-                SellComputers();
-                PayEmployees();
-                MaintainComputers();
+                int computersToBuy = BuyComputers(computerPrice, computers, ref cash);
+                computers += computersToBuy;
+                int computrersToSell = SellComputers(computerPrice, computers, ref cash);
+                computers -= computrersToSell;
+                cashPaidToEmployees = PayEmployees(cash);
+                cash -= cashPaidToEmployees;
+                computersMaintained = MaintainComputers(computers, employees, ref cash);
 
-                marketCrashVictims = CheckForCrash();
+                marketCrashVictims = CheckForCrash(employees);
                 employees = employees - marketCrashVictims;
 
-                if (CountStarvedEmployees() >= 45)
+                if (CountStarvedEmployees(cashPaidToEmployees, ref employees, ref starved) >= 45)
                 {
                     stillInOffice = false;
                 }
@@ -119,7 +122,7 @@ namespace HammerBitcoin
         * 
         * If a valid amount is entered, the available cash is reduced accordingly.
         */
-        private void BuyComputers()
+        private int BuyComputers(int computerPrice, int numberOfComputers, ref int cash)
         {
             int computersToBuy;
             string question = "How many computers will you buy? ";
@@ -133,9 +136,9 @@ namespace HammerBitcoin
                 cost = computerPrice * computersToBuy;
             }
             cash = cash - cost;
-            computers = computers + computersToBuy;
-            Console.WriteLine($"{OGH}, you now have {computers} computers");
+            Console.WriteLine($"{OGH}, you now have {numberOfComputers + computersToBuy} computers");
             Console.WriteLine($"and {cash} bitcoins of cash.");
+            return computersToBuy;
         }
 
         /**
@@ -154,7 +157,7 @@ namespace HammerBitcoin
         * 
         * Available cash will be increased by the value of the computers sold.
         */
-        private void SellComputers()
+        private int SellComputers(int computerPrice, int computers, ref int cash)
         {
             string question = "How many computers will you sell? ";
             int computersToSell = GetNumber(question);
@@ -165,9 +168,9 @@ namespace HammerBitcoin
                 computersToSell = GetNumber(question);
             }
             cash = cash + computerPrice * computersToSell;
-            computers = computers - computersToSell;
-            Console.WriteLine($"{OGH}, you now have {computers} computers");
+            Console.WriteLine($"{OGH}, you now have {computers - computersToSell} computers");
             Console.WriteLine($"and {cash} bitcoins of cash.");
+            return computersToSell;
         }
 
         /**
@@ -175,28 +178,29 @@ namespace HammerBitcoin
         * 
         * If a valid amount is entered, the available cash is reduced accordingly.
         */
-        private void PayEmployees()
+        private int PayEmployees(int cash)
         {
             string question = "How much bitcoin will you distribute to the employees? ";
-            cashPaidToEmployees = GetNumber(question);
+            int cashPaid = GetNumber(question);
 
-            while (cashPaidToEmployees > cash)
+            while (cashPaid > cash)
             {
                 Jest($"We have but {cash} bitcoins!");
                 cashPaidToEmployees = GetNumber(question);
             }
-            cash = cash - cashPaidToEmployees;
-            Console.WriteLine($"{OGH}, {cash} bitcoins remain.");
+            Console.WriteLine($"{OGH}, {cash - cashPaid} bitcoins remain.");
+            return cashPaid;
         }
 
         /**
         * Allows the user to choose how much to spend on maintenance.
         */
-        private void MaintainComputers()
+        private int MaintainComputers(int computers, int employees, ref int cash)
         {
             string question = "How many bitcoins will you allocate for maintenance? ";
             int maintenanceAmount = 0;
             bool haveGoodAnswer = false;
+            int quantityMaintained;
 
             while (!haveGoodAnswer)
             {
@@ -218,10 +222,11 @@ namespace HammerBitcoin
                     haveGoodAnswer = true;
                 }
             }
-            computersMaintained = maintenanceAmount / 2;
+            quantityMaintained = maintenanceAmount / 2;
             // Be nice to the player!  If they enter an odd number, give them the extra bitcoin back.
-            cash = cash - computersMaintained * 2;  // can re-write as cash -= computersMaintained * 2;
+            cash -= quantityMaintained * 2;
             Console.WriteLine($"{OGH}, we now have {cash} bitcoins in storage.");
+            return quantityMaintained;
         }
 
         /**
@@ -229,7 +234,7 @@ namespace HammerBitcoin
         *
         * @return The number of victims of the crash.
         */
-        private int CheckForCrash()
+        private int CheckForCrash(int employees)
         {
             int victims;
             if (rand.NextDouble() < 0.15)
@@ -249,7 +254,7 @@ namespace HammerBitcoin
         * 
         * @return  The percent of employees who starved.
         */
-        private int CountStarvedEmployees()
+        private int CountStarvedEmployees(int cashPaidToEmployees, ref int employees, ref int starved)
         {  // TODO: Has side effects
             int employeesPaid = cashPaidToEmployees / 20;
             int percentStarved = 0;
@@ -278,19 +283,10 @@ namespace HammerBitcoin
         */
         private int CountNewHires()
         {
-            return (starved > 0) 
-                ? 0 
+            int newEmployees = (starved > 0)
+                ? 0
                 : (20 * computers + cash) / (100 * employees) + 1;
-            //int newEmployees;
-            //if (starved > 0)
-            //{
-            //    newEmployees = 0;
-            //}
-            //else
-            //{
-            //    newEmployees = (20 * computers + cash) / (100 * employees) + 1;
-            //}
-            //return newEmployees;
+            return newEmployees;
         }
 
         /**
@@ -405,7 +401,7 @@ namespace HammerBitcoin
             while (true)
             {
                 Console.Write(message);
-                string userInput = Console.ReadLine();
+                var userInput = Console.ReadLine();
                 try
                 {
                     return int.Parse(userInput);
@@ -431,7 +427,6 @@ namespace HammerBitcoin
             {
                 Console.Write($"{question} ");
                 answer = Console.ReadKey(true).KeyChar;
-                //ReadKey(true) makes the key entered not be shown in the console. ReadKey() will print the key entered in the console before continuing the program.
                 answer = char.ToLower(answer);
                 if (answer.Equals('y'))
                     return true;

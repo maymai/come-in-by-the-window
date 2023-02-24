@@ -9,8 +9,8 @@ namespace HammerBitcoin
             bool playAgain = true;
             while (playAgain)
             {
-                BitcoinMiner game = new BitcoinMiner();
-                game.Play();
+               BitcoinMiner game = new BitcoinMiner();
+               game.Play();
                 playAgain = BitcoinMiner.GetYesOrNo("Would you like to play again?");
             }
             Console.WriteLine("Goodbye");

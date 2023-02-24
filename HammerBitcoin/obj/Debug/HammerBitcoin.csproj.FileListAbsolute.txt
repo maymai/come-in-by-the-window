@@ -1,7 +1,14 @@
-E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HammerBitcoin\bin\Debug\HammerBitcoin.exe.config
-E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HammerBitcoin\bin\Debug\HammerBitcoin.exe
-E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HammerBitcoin\bin\Debug\HammerBitcoin.pdb
-E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.CoreCompileInputs.cache
-E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HammerBitcoin\obj\Debug\HammerBitcoin.exe
-E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HammerBitcoin\obj\Debug\HammerBitcoin.pdb
-E:\MayMai\Google Drive\fioriniswann\Visual Studio Repo\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.AssemblyReference.cache
+C:\Users\timbuchalka\Desktop\C#Programs\HammerBitcoin\bin\Debug\HammerBitcoin.exe.config
+C:\Users\timbuchalka\Desktop\C#Programs\HammerBitcoin\bin\Debug\HammerBitcoin.exe
+C:\Users\timbuchalka\Desktop\C#Programs\HammerBitcoin\bin\Debug\HammerBitcoin.pdb
+C:\Users\timbuchalka\Desktop\C#Programs\HammerBitcoin\obj\Debug\HammerBitcoin.csprojAssemblyReference.cache
+C:\Users\timbuchalka\Desktop\C#Programs\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.CoreCompileInputs.cache
+C:\Users\timbuchalka\Desktop\C#Programs\HammerBitcoin\obj\Debug\HammerBitcoin.exe
+C:\Users\timbuchalka\Desktop\C#Programs\HammerBitcoin\obj\Debug\HammerBitcoin.pdb
+C:\may_dev\come-in-by-the-window\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.AssemblyReference.cache
+C:\may_dev\come-in-by-the-window\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.CoreCompileInputs.cache
+C:\may_dev\come-in-by-the-window\HammerBitcoin\obj\Debug\HammerBitcoin.exe
+C:\may_dev\come-in-by-the-window\HammerBitcoin\obj\Debug\HammerBitcoin.pdb
+C:\may_dev\come-in-by-the-window\HammerBitcoin\bin\Debug\HammerBitcoin.exe.config
+C:\may_dev\come-in-by-the-window\HammerBitcoin\bin\Debug\HammerBitcoin.exe
+C:\may_dev\come-in-by-the-window\HammerBitcoin\bin\Debug\HammerBitcoin.pdb
