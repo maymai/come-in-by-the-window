@@ -1,2 +1,2 @@
 # come-in-by-the-window
-C# Exercises
+Java scripts and training exercises
